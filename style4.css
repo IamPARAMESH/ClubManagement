@@ -1,0 +1,92 @@
+#iform
+{
+	 margin:25px;
+	 font-size:30px;
+	width:100%;
+}
+.alink
+{
+font-size:25px;
+text-decoration: none;
+display: inline;
+}
+.alink:hover{color:yellow;}
+#menu {
+    list-style-type: none;
+    margin-top:0%;
+    padding:14px;
+    width: 0%;
+    background-color:#66CDAA;
+    width: 100%;
+    overflow:auto;
+  
+}
+li{
+display: inline;
+float : center;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    background-color:orange;
+}
+li a:hover{color: #FF1493;}
+
+li a:hover
+{
+background-color: green;
+color: #8B0000;
+}
+
+
+.dropdown{
+	padding-top:2px;
+	 position:fixed;
+    display: inline-block;
+	float:center;
+	 cursor: pointer;
+	list-style-type:none;
+	margin-top:0%;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    z-index: 1;
+	padding:10px 10px;
+	text-align:center;
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 14px 50px;
+    text-decoration: none;
+    display:block;
+}
+.dropdown-content a:hover 
+{
+	background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content 
+{
+    display:block;
+}
+a:link{
+color:red;
+}
+
+
+a:hover{
+color: #FFFF00 ;
+}
+
+a:active{
+color:yellow;
+}
+a:visited{
+color:blue;
+}

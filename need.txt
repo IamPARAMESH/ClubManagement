@@ -1,0 +1,2 @@
+dc 547
+2/3k resistor
